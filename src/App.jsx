@@ -6,6 +6,7 @@
 // IMPORTING PAGES
 import LandingPage from "./components/pages/LandingPage/landingPage"
 import Contactus from "./components/pages/ContactUs/Contactus"
+import Dashboard from "./components/pages/Dashboard/Dashboard"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
       <LandingPage></LandingPage>
       <Contactus></Contactus>
+      <Dashboard></Dashboard>
 
     </>
   )
