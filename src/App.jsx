@@ -3,6 +3,9 @@
 // IMPORTING ROUTES
 // import SiteRoutes from './routes.js'
 
+// IMPORTING PAGES
+import LandingPage from "./components/pages/LandingPage/landingPage"
+
 
 function App() {
 
@@ -15,6 +18,8 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter> */}
+
+      <LandingPage></LandingPage>
 
     </>
   )
