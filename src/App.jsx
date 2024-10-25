@@ -3,6 +3,11 @@
 // IMPORTING ROUTES
 // import SiteRoutes from './routes.js'
 
+// IMPORTING PAGES
+import LandingPage from "./components/pages/LandingPage/landingPage"
+import Contactus from "./components/pages/ContactUs/Contactus"
+import Dashboard from "./components/pages/Dashboard/Dashboard"
+
 
 function App() {
 
@@ -15,6 +20,10 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter> */}
+
+      <LandingPage></LandingPage>
+      <Contactus></Contactus>
+      <Dashboard></Dashboard>
 
     </>
   )
